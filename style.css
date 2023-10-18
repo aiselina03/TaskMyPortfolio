@@ -9,10 +9,6 @@ body {
   position: fixed;
 }
 
-.navbar .img {
-  width: 20px;
-}
-
 .navbar .img img {
   width: 120px;
   min-height: 120px;
@@ -394,7 +390,9 @@ body {
 
 .sec4 .contact1 input{
   border: transparent;
-  padding: 10px 495px;
+  width: 100%;
+  min-height: 30px;
+
 }
 
 .sec4 .button1 .btn1{
@@ -413,8 +411,8 @@ body {
 }
 
 .footer1{
-    width: 80%;
-    height: 35vh;
+    max-width: 80%;
+    min-height: 35vh;
     margin-left: 300px;
     background-color: #616161;
     font-family: "Raleway", sans-serif;
@@ -422,39 +420,24 @@ body {
     display: flex;
     align-items: center;
     text-align: start;
+    justify-content: space-evenly;
 }
 
-.footer1 .foot1{
-  width: 300px;
-  height: 60%;
-  margin-left: 50px;
-}
-
-.footer1 .foot2{
-  width: 300px;
-  height: 60%;
-  margin-left: 100px;
-}
-
-.footer1 .foot3{
-  width: 300px;
-  height: 60%;
-}
-
-.footer1 .foot2  img {
-    width: 50px;
-    height: 50px;
-}
-
-.footer1 .foot2 ul {
-  width: 60px;
-  height: 50px;
+.footer1 .foot1, .foot2, .foot3{
+  max-width:300px;
+  min-height: 60%;
 }
 
 .footer1 .foot2 ul li{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer1 .foot2  img {
+    max-width: 50px;
+    min-height: 50px;
+    margin: 5px;
 }
 
 .footer1 .foot3 span{
