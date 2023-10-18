@@ -190,9 +190,9 @@ body {
     gap: 20px;
 }
 
-.sec2 .sekil1, .sekil2{
-    width: 50%;
-    height: auto;
+.sec2 .sekil1 img, .sekil2 img{
+  width: 550px;
+  height: auto;
 }
 
 .sec2 .about {
